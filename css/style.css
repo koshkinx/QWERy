@@ -696,7 +696,7 @@ input[type="email"] {
     position: absolute;
   }
   main {
-    padding: 0;
+    padding: 20px;
   }
   .explore {
     position: unset;
