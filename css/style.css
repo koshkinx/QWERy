@@ -676,6 +676,12 @@ input[type="email"] {
   }
 }
 @media (max-width: 415px) {
+  .black_black {
+    padding-right: 0;
+  }
+  .bromo {
+    font-size: 10px;
+  }
   .terms_priv {
     width: 54%;
   }
@@ -683,7 +689,7 @@ input[type="email"] {
     margin: 0 18px;
   }
   input[type="email"] {
-    width: 79%;
+    width: 73%;
   }
   .main_letsgo {
     flex-direction: column;
@@ -723,8 +729,8 @@ input[type="email"] {
   }
 
   .left_qwerty {
-    width: 37%;
-    font-size: 29px;
+    width: 31%;
+    font-size: 24px;
   }
 
   .btn_qwert {
@@ -849,7 +855,7 @@ input[type="email"] {
     width: 231%;
   }
   .disco {
-    font-size: 56px;
+    font-size: 51px;
     line-height: 1;
   }
   .rotet {
