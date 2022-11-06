@@ -293,6 +293,7 @@ ul {
   flex-direction: column;
 }
 .main_steady_step {
+  background-size: cover;
   padding: 469px 40px 41px 40px;
   width: 100%;
   display: flex;
@@ -675,6 +676,96 @@ input[type="email"] {
   }
 }
 @media (max-width: 415px) {
+  .terms_priv {
+    width: 54%;
+  }
+  .twisti {
+    margin: 0 18px;
+  }
+  input[type="email"] {
+    width: 79%;
+  }
+  .main_letsgo {
+    flex-direction: column;
+  }
+  .right_letgo {
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .colombo_letgo1 {
+    align-items: center;
+    height: 320px;
+  }
+  .serv_a {
+    font-size: 27px;
+  }
+  .mark_a {
+    font-size: 47px;
+  }
+  .colombo_letgo3 {
+    align-items: center;
+    height: 223px;
+  }
+
+  .inner_btn {
+    padding: 12px 21px 12px 19.47px;
+  }
+  .inner_redy {
+    margin-right: 0;
+    width: 27%;
+    font-size: 15px;
+  }
+
+  .right_textbtn {
+    width: 72%;
+    justify-content: space-between;
+  }
+
+  .left_qwerty {
+    width: 37%;
+    font-size: 29px;
+  }
+
+  .btn_qwert {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .cultur {
+    font-size: 40px;
+    text-align: center;
+  }
+  .steade {
+    font-size: 42px;
+  }
+  .have {
+    font-size: 51px;
+  }
+  .scroll_link {
+    margin-right: 70px;
+  }
+  .main_menu {
+    order: 1;
+    width: 11.3%;
+  }
+  .head_right {
+    order: 0;
+    width: 75.3%;
+  }
+
+  form {
+    text-align: end;
+  }
+  input[type="text"] {
+    width: 64%;
+  }
+  .head_left {
+    width: 26.3%;
+  }
+  .super_alls {
+    margin-left: 23%;
+  }
   ul {
     display: block;
   }
@@ -726,12 +817,7 @@ input[type="email"] {
   .footer {
     padding: 40px 0 40px 0;
   }
-  .colombo_letgo1 {
-    height: 114px;
-  }
-  .colombo_letgo3 {
-    height: 114px;
-  }
+
   .main_letsgo {
     flex-direction: column;
   }
@@ -740,10 +826,6 @@ input[type="email"] {
   }
   .main_steady_step {
     padding: 36px 40px 41px 40px;
-  }
-  .btn_qwert {
-    flex-direction: column;
-    align-items: center;
   }
   .happy_text {
     width: 100%;
